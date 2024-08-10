@@ -1,0 +1,6 @@
+name: Warzone
+version: 1.0.0
+main: com.JustADev.Warzone.CTFPlugin
+api-version: 1.13
+author: JustADev
+description: A Capture the Flag plugin for Minecraft.

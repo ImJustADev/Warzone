@@ -1,17 +1,18 @@
 package com.JustADev.Warzone;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class CTFPlugin {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import org.bukkit.plugin.java.JavaPlugin;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class CTFPlugin extends JavaPlugin {
+
+    @Override
+    public void onEnable() {
+        getLogger().info("CTF Plugin has been enabled!");
+        // Register commands, events, and initialize other plugin components here
+    }
+
+    @Override
+    public void onDisable() {
+        getLogger().info("CTF Plugin has been disabled!");
+        // Clean up resources here
     }
 }
