@@ -6,11 +6,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class MapVoteCommand implements CommandExecutor {
+public class KitCommand implements CommandExecutor {
 
     private final CTFPlugin plugin;
 
-    public MapVoteCommand(CTFPlugin plugin) {
+    public KitCommand(CTFPlugin plugin) {
         this.plugin = plugin;
     }
 
@@ -22,8 +22,13 @@ public class MapVoteCommand implements CommandExecutor {
         }
 
         Player player = (Player) sender;
-        // Placeholder: Handle map voting logic
-        player.sendMessage("You voted for a map!");
+        // Placeholder: Handle kit selection logic
+        if (args.length > 0) {
+            String kitName = args[0];
+            player.sendMessage("You selected the " + kitName + " kit!");
+        } else {
+            player.sendMessage("Please specify a kit.");
+        }
 
         return true;
     }

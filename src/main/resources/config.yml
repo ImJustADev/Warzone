@@ -1,0 +1,16 @@
+# This configuration file defines the server type and other plugin settings.
+
+server-type: LOBBY  # Set this to LOBBY for the Lobby Server and WARZONE for the Warzone Server
+
+# Map options (example for future expansion)
+maps:
+  - map1
+  - map2
+  - map3
+  - map4
+
+# Kit options (example for future expansion)
+kits:
+  - warrior
+  - archer
+  - healer

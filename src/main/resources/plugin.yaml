@@ -1,6 +1,24 @@
 name: Warzone
 version: 1.0.0
 main: com.JustADev.Warzone.CTFPlugin
-api-version: 1.13
+api-version: 1.16
 author: JustADev
-description: A Capture the Flag plugin for Minecraft.
+description: A Capture the Flag plugin with integrated Lobby and Warzone features.
+
+commands:
+  vote:
+    description: Vote for the next map.
+    usage: /vote <map>
+    permission: warzone.cmd.vote
+  kit:
+    description: Select your kit.
+    usage: /kit <kit>
+    permission: warzone.cmd.kit
+
+permissions:
+  warzone.cmd.vote:
+    description: Allows the player to vote for a map.
+    default: true
+  warzone.cmd.kit:
+    description: Allows the player to select a kit.
+    default: true

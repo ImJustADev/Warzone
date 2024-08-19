@@ -6,11 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="81293449-faf8-4bec-99c4-13d25e90f4c5" name="Changes" comment="Basic Code files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/CTFPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/CTFPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/commands/KitUpgradeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/commands/KitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/commands/MapVoteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/commands/MapVoteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/events/LobbyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/events/LobbyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/events/WarzoneListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/JustADev/Warzone/events/WarzoneListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +45,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2kTCiZ5cNVdEehi9F3eATnoRHBd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723298307536</updated>
       <workItem from="1723298308962" duration="805000" />
-      <workItem from="1723300599971" duration="2452000" />
+      <workItem from="1723300599971" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="Basic Code files">
       <option name="closed" value="true" />
@@ -89,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723301969713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basic Code files">
+      <option name="closed" value="true" />
+      <created>1724029773406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724029773406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
